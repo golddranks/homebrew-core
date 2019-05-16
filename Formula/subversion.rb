@@ -22,7 +22,7 @@ class Subversion < Formula
   depends_on :java => ["1.8+", :build]
   depends_on "pkg-config" => :build
   depends_on "scons" => :build # For Serf
-  depends_on "swig" => :build
+  depends_on "swig@3" => :build
   depends_on "apr"
   depends_on "apr-util"
 
